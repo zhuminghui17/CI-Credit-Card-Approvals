@@ -1,12 +1,8 @@
-"""
-Test goes here
+from main import main
+def test_max():
+    """Function calling listMax"""
 
-"""
-
-from mylib.__init__ import add
-
-
-def test_add():
-    assert add(1, 2) == 3
-    assert add(3, 2) == 5
-    assert add(10, 12) == 22
+    list1 = [1, 2, 3, 4, 5, 6]
+    list2 = [1, 2, 3, 4]
+    assert main(list1) == 6
+    assert main(list2) == 4

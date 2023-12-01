@@ -1,12 +1,18 @@
 [![CI](https://github.com/zhuminghui17/CI-Credit-Card-Approvals/actions/workflows/cicd.yml/badge.svg)](https://github.com/zhuminghui17/python-template/actions/workflows/cicd.yml)
 
+(base) minghuizhu@Minghuis-MacBook-Air CI-Credit-Card-Approvals % python3 -m venv venv
+(base) minghuizhu@Minghuis-MacBook-Air CI-Credit-Card-Approvals % source venv/bin/activate
 
-# Project #1: Continuous Integration using GitHub Actions of Python Data Science Project
+# Project #1: Continuous Integration Data Science - Credit Card Approval
+Continuous Integration using GitHub Actions of Python Data Science Project
 
-Requirements:
+
+
+## Project Requirements:
 
 The project structure must include the following files:
-- Jupyter Notebook with:
+
+- [] Jupyter Notebook with:
     - Cells that perform descriptive statistics using Polars or Panda.	
     - Tested by using nbval plugin for pytest
 			
