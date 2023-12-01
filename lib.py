@@ -36,14 +36,13 @@ def null_data(df):
     return df.isna().sum()
 
 
-def histogram(df):
-    """
-    Generate a histogram for the DataFrame.
-    """
-    return df.hist()
-
 def correlation_matrix(df):
     """
-    Return the correlation matrix of the DataFrame.
+    Convert string columns to numeric and return the correlation matrix of the DataFrame.
     """
+    # Convert all columns to numeric if possible
+    for column in df.columns:
+        df[column] = pd.to_numeric(df[column], errors='coerce')
+
+    # Now compute and return the correlation matrix
     return df.corr()
