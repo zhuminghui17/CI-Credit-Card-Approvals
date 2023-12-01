@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def read_data(path):
     """
     Read data from path
@@ -25,3 +26,22 @@ def describe_data(df):
     """
     return df.describe()
 
+
+# info
+def info_data(df):
+
+    return df.info()
+
+
+def head_data(df):
+    return df.head()
+
+
+def missing_data(df):
+
+
+def null_data(df):
+
+def histogram(df):
+
+def correlation_matrix(df):
