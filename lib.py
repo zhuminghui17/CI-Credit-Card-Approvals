@@ -1,10 +1,12 @@
 import pandas as pd
 
+
 def read_data(path):
     """
     Read data from a given file path.
     """
     return pd.read_csv(path)
+
 
 def describe_data(df):
     """
@@ -12,11 +14,13 @@ def describe_data(df):
     """
     return df.describe()
 
+
 def head_data(df):
     """
     Return the first few rows of the DataFrame.
     """
     return df.head()
+
 
 def missing_data(df):
     """
@@ -24,11 +28,13 @@ def missing_data(df):
     """
     return df.isnull().sum()
 
+
 def null_data(df):
     """
     Return the count of null values in each column of the DataFrame.
     """
     return df.isna().sum()
+
 
 def histogram(df):
     """
