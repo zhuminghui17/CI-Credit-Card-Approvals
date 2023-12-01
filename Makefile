@@ -12,4 +12,4 @@ format:
 lint:
 	ruff *.py
 		
-all: install lint format test 
+all: install lint format test
