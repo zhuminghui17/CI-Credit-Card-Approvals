@@ -2,7 +2,11 @@
 [![Install](https://github.com/zhuminghui17/CI-Credit-Card-Approvals/actions/workflows/install.yml/badge.svg)](https://github.com/zhuminghui17/CI-Credit-Card-Approvals/actions/workflows/install.yml) [![Lint](https://github.com/zhuminghui17/CI-Credit-Card-Approvals/actions/workflows/lint.yml/badge.svg)](https://github.com/zhuminghui17/CI-Credit-Card-Approvals/actions/workflows/lint.yml) [![Test](https://github.com/zhuminghui17/CI-Credit-Card-Approvals/actions/workflows/test.yml/badge.svg)](https://github.com/zhuminghui17/CI-Credit-Card-Approvals/actions/workflows/test.yml)
 
 
+
 # Project #1: Continuous Integration in Data Science - Credit Card Approval
+
+Video Demo: https://youtu.be/0rYKeP2SGHA
+
 This project exemplifies the effective use of Continuous Integration through GitHub Actions in a Python-based Data Science initiative. It is structured around well-organized project directories and workflows. The primary objective is to calculate descriptive statistics using libraries such as Pandas or Polars, alongside visualizing data distributions. Furthermore, the integration of GitHub Actions guarantees the maintenance of code quality by automatically executing tests, linting, and formatting with every code push or pull request.
 ## Dataset Overview
 The Credit Card Approval dataset from the University of California Irvine (UCI) Machine Learning Repository is used to build automatic credit card approval predictors. The dataset is multivariate, with categorical, integer, and real feature types. It has 690 instances, with 55.5% of applications being denied and 44.5% being approved.
