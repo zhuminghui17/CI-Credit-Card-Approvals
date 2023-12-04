@@ -17,8 +17,18 @@ Following the criteria set by Project #1's grading rubric, this project encompas
 - A `requirements.txt` file detailing all necessary project dependencies.
 - Continuous integration facilitated through GitHub Actions.
 
+## Requirements
+For a complete list, refer to requirements.txt. Key requirements include:
+```
+Python (Version 3.6 or newer)
+Pandas (Version 2.1.0)
+pytest and nbval for testing
+nbval (Version 0.9.6)
+black for code formatting
+ruff for linting
+```
+
 ## Functionality
-### Functionality
 
 The project provides a suite of functions designed to perform various data analysis operations on a DataFrame, leveraging the capabilities of the Pandas library. Key functionalities include:
 
